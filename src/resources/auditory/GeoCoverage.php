@@ -5,14 +5,14 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, предоставляющий информацию об охвате пользователей в заданной географической области
  * Class GeoCoverage
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/GeoCoverage
  */
 class GeoCoverage extends Resource

@@ -5,14 +5,14 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий построить гистограмму типовой аудитории
  * Class AudienceScoreStats
- * @package kradwhite\myTarget\api
+ * @package dugard\myTarget\api
  * @see https://target.my.com/doc/api/ru/resource/AudienceScoreStats
  */
 class AudienceScoreStats extends Resource

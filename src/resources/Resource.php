@@ -5,13 +5,13 @@
  * Time: 12:57
  */
 
-namespace kradwhite\myTarget\api\resources;
+namespace dugard\myTarget\api\resources;
 
-use kradwhite\myTarget\api\transport\TransportInterface;
+use dugard\myTarget\api\transport\TransportInterface;
 
 /**
  * Class Resource
- * @package kradwhite\myTarget\api\client
+ * @package dugard\myTarget\api\client
  */
 abstract class Resource
 {

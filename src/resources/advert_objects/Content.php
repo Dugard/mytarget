@@ -5,16 +5,16 @@
  * Time: 8:17
  */
 
-namespace kradwhite\myTarget\api\resources\advert_objects;
+namespace dugard\myTarget\api\resources\advert_objects;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий загружать креативы, которые в дальнейшем могут быть использованы в рекламных объявлениях.
  * Креативы, загруженные с помощью данного ресурса, могут быть использованы только в тех пакетах, в баннерном
  * формате которых есть секция "content"
  * Class Content
- * @package kradwhite\myTarget\api\methods\advert_objects
+ * @package dugard\myTarget\api\methods\advert_objects
  * @see https://target.my.com/doc/api/ru/resource/Content
  */
 class Content extends Resource

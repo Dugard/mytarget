@@ -5,14 +5,14 @@
  * Time: 8:30
  */
 
-namespace kradwhite\myTarget\api\resources\advert_objects;
+namespace dugard\myTarget\api\resources\advert_objects;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяет получить информацию о нескольких рекламируемых ссылках
  * Class ReadUrls
- * @package kradwhite\myTarget\api\methods\advert_objects
+ * @package dugard\myTarget\api\methods\advert_objects
  * @see https://target.my.com/doc/api/ru/resource/ReadUrls
  */
 class ReadUrls extends Resource

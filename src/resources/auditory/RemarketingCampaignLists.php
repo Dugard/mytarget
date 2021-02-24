@@ -5,15 +5,15 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий управлять списками рекламных кампаний. Такие списки используются для настройки таргетинга
  * на пользователей, которые видели или кликали по баннерам кампаний из списка
  * Class RemarketingCampaignLists
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/RemarketingCampaignLists
  */
 class RemarketingCampaignLists extends Resource

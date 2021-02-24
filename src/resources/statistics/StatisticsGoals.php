@@ -5,15 +5,15 @@
  * Time: 20:12
  */
 
-namespace kradwhite\myTarget\api\resources\statistics;
+namespace dugard\myTarget\api\resources\statistics;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс возвращает статистику по конверсиям Top@Mail.ru и установкам мобильных приложений по кампаниям
  * и баннерам в разрешении 1 день
  * Class StatisticsByGoals
- * @package kradwhite\myTarget\api\methods\statistics
+ * @package dugard\myTarget\api\methods\statistics
  * @see https://target.my.com/adv/api-marketing/doc/stat-v2
  */
 class StatisticsGoals extends Resource

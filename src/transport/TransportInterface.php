@@ -5,13 +5,13 @@
  * Time: 16:31
  */
 
-namespace kradwhite\myTarget\api\transport;
+namespace dugard\myTarget\api\transport;
 
 use GuzzleHttp\Client;
 
 /**
  * Class TransportInterface
- * @package kradwhite\myTarget\api\transport
+ * @package dugard\myTarget\api\transport
  */
 interface TransportInterface
 {

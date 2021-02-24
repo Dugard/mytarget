@@ -5,14 +5,14 @@
  * Time: 14:59
  */
 
-namespace kradwhite\myTarget\api\resources\limits;
+namespace dugard\myTarget\api\resources\limits;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Информацию о лимитах для конкретного пользователя
  * Class Throttling
- * @package kradwhite\myTarget\api\resources\limits
+ * @package dugard\myTarget\api\resources\limits
  */
 class Throttling extends Resource
 {

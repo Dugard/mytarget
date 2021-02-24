@@ -5,14 +5,14 @@
  * Time: 15:06
  */
 
-namespace kradwhite\myTarget\api\resources\push_notifications;
+namespace dugard\myTarget\api\resources\push_notifications;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Этот инструмент позволяет пользователям API узнавать об изменении ресурсов API, используя push- вместо pull-модели
  * Class Subscriptions
- * @package kradwhite\myTarget\api\methods\push_notifications
+ * @package dugard\myTarget\api\methods\push_notifications
  * @see https://target.my.com/adv/api-marketing/doc/push
  */
 class Subscriptions extends Resource

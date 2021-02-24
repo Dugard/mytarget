@@ -5,14 +5,14 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий создать новый или получить массив существующих списков оффлайн конверсий
  * Class RemarketingOfflineGoals
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/RemarketingOfflineGoals
  */
 class RemarketingOfflineGoals extends Resource

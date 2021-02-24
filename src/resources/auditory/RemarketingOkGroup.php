@@ -5,9 +5,9 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий управлять группой или тематикой в соцсети Одноклассники, которую пользователь добавил
@@ -15,7 +15,7 @@ use kradwhite\myTarget\api\resources\Resource;
  * для настройки таргетинга на пользователей, состоящих в них.
  * Class RemarketingOkGroup
  * @see https://target.my.com/doc/api/ru/resource/RemarketingOkGroup
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  */
 class RemarketingOkGroup extends Resource
 {

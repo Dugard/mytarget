@@ -5,15 +5,15 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяет отправить запрос партнерскому DMP на предоставление доступа к сегменту аудитории.
  * Доступно если партнерский DMP поддерживает такую возможность
  * Class DmpRequest
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/DmpRequest
  */
 class DmpRequest extends Resource

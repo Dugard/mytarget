@@ -5,7 +5,7 @@
  * Time: 16:04
  */
 
-namespace kradwhite\myTarget\api\transport;
+namespace dugard\myTarget\api\transport;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
@@ -13,7 +13,7 @@ use GuzzleHttp\Exception\TransferException;
 
 /**
  * Class Transport
- * @package kradwhite\myTarget\api\transport
+ * @package dugard\myTarget\api\transport
  */
 class Transport implements TransportInterface
 {

@@ -5,14 +5,14 @@
  * Time: 9:00
  */
 
-namespace kradwhite\myTarget\api\resources\references;
+namespace dugard\myTarget\api\resources\references;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, предоставляющий информацию о мобильной операционной системе
  * Class MobileOperationSystem
- * @package kradwhite\myTarget\api\methods\references
+ * @package dugard\myTarget\api\methods\references
  * @see https://target.my.com/doc/api/ru/resource/MobileOperationSystem
  */
 class MobileOperationSystem extends Resource

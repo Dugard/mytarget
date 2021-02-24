@@ -5,15 +5,15 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс для управления списками локальной географии. После создания списков их можно включить в сегмент,
  * который можно включить в таргетинг кампании
  * Class LocalGeos
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/LocalGeos
  */
 class LocalGeos extends Resource

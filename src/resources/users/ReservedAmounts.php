@@ -5,14 +5,14 @@
  * Time: 21:21
  */
 
-namespace kradwhite\myTarget\api\resources\users;
+namespace dugard\myTarget\api\resources\users;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс для получения информации о средствах клиентов агентства
  * Class ReservedAmounts
- * @package kradwhite\myTarget\api\methods\users
+ * @package dugard\myTarget\api\methods\users
  * @see https://target.my.com/doc/api/ru/resource/ReservedAmounts
  */
 class ReservedAmounts extends Resource

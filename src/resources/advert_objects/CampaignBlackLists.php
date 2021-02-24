@@ -5,16 +5,16 @@
  * Time: 8:08
  */
 
-namespace kradwhite\myTarget\api\resources\advert_objects;
+namespace dugard\myTarget\api\resources\advert_objects;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, представляющий возможность редактировать и удалять списки запрещенных url адресов или мобильных
  * приложений. Эти списки могут использоваться для запрета показа объявлений на входящих в список доменах
  * или мобильных приложениях
  * Class CampaignBlackLists
- * @package kradwhite\myTarget\api\methods\advert_objects
+ * @package dugard\myTarget\api\methods\advert_objects
  * @see https://target.my.com/doc/api/ru/resource/CampaignBlackLists
  */
 class CampaignBlackLists extends Resource

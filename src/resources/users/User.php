@@ -5,14 +5,14 @@
  * Time: 21:23
  */
 
-namespace kradwhite\myTarget\api\resources\users;
+namespace dugard\myTarget\api\resources\users;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий собрать основную информацию о пользователе
  * Class User
- * @package kradwhite\myTarget\api\methods\users
+ * @package dugard\myTarget\api\methods\users
  * @see https://target.my.com/doc/api/ru/resource/User
  */
 class User extends Resource

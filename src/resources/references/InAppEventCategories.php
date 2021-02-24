@@ -5,14 +5,14 @@
  * Time: 8:57
  */
 
-namespace kradwhite\myTarget\api\resources\references;
+namespace dugard\myTarget\api\resources\references;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяющий получит информацию о категориях событий в мобильном приложении
  * Class InAppEventCategories
- * @package kradwhite\myTarget\api\methods\references
+ * @package dugard\myTarget\api\methods\references
  * @see https://target.my.com/doc/api/ru/resource/InAppEventCategories
  */
 class InAppEventCategories extends Resource

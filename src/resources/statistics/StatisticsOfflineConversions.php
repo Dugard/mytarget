@@ -5,15 +5,15 @@
  * Time: 20:27
  */
 
-namespace kradwhite\myTarget\api\resources\statistics;
+namespace dugard\myTarget\api\resources\statistics;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс возвращает статистику по аттрибуцированным с рекламными показами myTarget событиями из списков
  * оффлайн конверсий по кампаниям в разрешении 1 день.
  * Class StatisticsOfflineConversions
- * @package kradwhite\myTarget\api\methods\statistics
+ * @package dugard\myTarget\api\methods\statistics
  * @see https://target.my.com/adv/api-marketing/doc/stat-v2
  */
 class StatisticsOfflineConversions extends Resource

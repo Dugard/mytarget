@@ -5,15 +5,15 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий получить списки пользователей от партнерских DMP. Такие списки используются
  * для настройки таргетинга на аудиторию пользователей, полученную из внешнего источника
  * Class DmpSegment
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/DmpSegment
  */
 class DmpSegment extends Resource

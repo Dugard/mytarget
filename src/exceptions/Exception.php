@@ -5,11 +5,11 @@
  * Time: 12:56
  */
 
-namespace kradwhite\myTarget\api\exceptions;
+namespace dugard\myTarget\api\exceptions;
 
 /**
  * Class Exception
- * @package kradwhite\myTarget\api\exceptions
+ * @package dugard\myTarget\api\exceptions
  */
 class Exception extends \Exception
 {

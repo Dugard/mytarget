@@ -5,15 +5,15 @@
  * Time: 19:58
  */
 
-namespace kradwhite\myTarget\api\resources\statistics;
+namespace dugard\myTarget\api\resources\statistics;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс возвращает суммарную за все время открутки или подневную за выбранный период статистику
  * по аккаунтам, кампаниям, баннерам
  * Class Statistics
- * @package kradwhite\myTarget\api\methods\statistics
+ * @package dugard\myTarget\api\methods\statistics
  * @see https://target.my.com/adv/api-marketing/doc/stat-v2
  */
 class Statistics extends Resource

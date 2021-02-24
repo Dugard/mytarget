@@ -5,14 +5,14 @@
  * Time: 19:25
  */
 
-namespace kradwhite\myTarget\api\resources\users;
+namespace dugard\myTarget\api\resources\users;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяет массово привязать существующих клиентов агентства к менеджеру
  * Class AgencyManagerClientMassAction
- * @package kradwhite\myTarget\api\methods\users
+ * @package dugard\myTarget\api\methods\users
  * @see https://target.my.com/doc/api/ru/resource/AgencyManagerClientMassAction
  */
 class AgencyManagerClientMassAction extends Resource

@@ -5,11 +5,11 @@
  * Time: 15:22
  */
 
-namespace kradwhite\myTarget\api\exceptions;
+namespace dugard\myTarget\api\exceptions;
 
 /**
  * Class AccessTokenException
- * @package kradwhite\myTarget\api\exceptions
+ * @package dugard\myTarget\api\exceptions
  */
 class AccessTokenException extends Exception
 {

@@ -5,14 +5,14 @@
  * Time: 9:12
  */
 
-namespace kradwhite\myTarget\api\resources\finance;
+namespace dugard\myTarget\api\resources\finance;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс выполняет перевод средств между агентством и его клиентом
  * Class Transaction
- * @package kradwhite\myTarget\api\methods\finance
+ * @package dugard\myTarget\api\methods\finance
  * @see https://target.my.com/doc/api/ru/resource/Transaction
  */
 class Transaction extends Resource

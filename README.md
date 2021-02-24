@@ -1,45 +1,40 @@
 MyTarget API Client for PHP
 ==============================
-
-Простой и удобный PHP-клиент для [MyTarget Api](https://target.my.com/adv/api-marketing/).
+ 
+Forked from [kradwhite/mytarget-api-client](https://github.com/kradwhite/mytarget-api-client)
 
 ## Требования
  * PHP 7.0 и выше
  
-## Установка  
-В файле `composer.json`:
-```php
-{
-    ...
-    "require": {
-        ...
-        "kradwhite/mytarget-api-client": "*"
-    }
-    ...
-}
+## Установка
+
+Через composer:
+
+```
+composer require dugard/mytarget
 ```
 
 ## Использование
 ### Оглавление
-1. [Получение токена](https://github.com/kradwhite/mytarget-api-client#Получение-токена)
-2. [Инициализация клиента](https://github.com/kradwhite/mytarget-api-client#Инициализация-клиента)
-3. [Конфигурация клиента](https://github.com/kradwhite/mytaget-api-client#Конфигурация-клиета)
-4. [Примеры запросов](https://github.com/kradwhite/mytarget-api-client#Примеры-запросов)
-5. [Полезная информация](https://github.com/kradwhite/mytarget-api-client#Полезная-информация)
+1. [Получение токена](https://github.com/dugard/mytarget-api-client#Получение-токена)
+2. [Инициализация клиента](https://github.com/dugard/mytarget-api-client#Инициализация-клиента)
+3. [Конфигурация клиента](https://github.com/dugard/mytaget-api-client#Конфигурация-клиета)
+4. [Примеры запросов](https://github.com/dugard/mytarget-api-client#Примеры-запросов)
+5. [Полезная информация](https://github.com/dugard/mytarget-api-client#Полезная-информация)
 
 ## Получение токена
 ```php
-use kradwhite\myTarget\oauth2\Oauth2;
+use dugard\myTarget\oauth2\Oauth2;
 
 $oauth = new Oauth2();
 $token = $oauth->clientCredentialsGrant('client_id', 'client_secret')->request();
 $access_token = $token['access_token'];
 ```
-Для получения информации по другим видам токенов можно познакомится в [kradwhite\mytarget-oauth2](https://github.com/kradwhite/mytarget-oauth2)
+Для получения информации по другим видам токенов можно познакомится в [dugard\mytarget-oauth2](https://github.com/dugard/mytarget-oauth2)
 
 ## Инициализация клиента
 ```php
-use kradwhite\myTarget\api\Client;
+use dugard\myTarget\api\Client;
 
 $client = new Client($access_token);
 ```
@@ -58,8 +53,8 @@ $config = [
     // по умолчанию 0. Установка опции timeout
     // http://docs.guzzlephp.org/en/stable/request-options.html#timeout.
     'timeout' => 0,
-    // по умолчанию kradwhite\myTarget\transport\Transport. Имя класса реализующего
-    // интерфейс kradwhite\mytarget\transport\TransportInterface.
+    // по умолчанию dugard\myTarget\transport\Transport. Имя класса реализующего
+    // интерфейс dugard\mytarget\transport\TransportInterface.
     'transport' => Class::name,
 ];
 
@@ -113,5 +108,5 @@ $statistics = $client->statistics()->get(
 ```
 
 ## Полезная информация
-- В классе kradwhite\myTarget\api\Client перед каждым методом в комментариях имеется ссылка на оффициальную страницу в документации myTarget по запрашиваемому ресурсу.
+- В классе dugard\myTarget\api\Client перед каждым методом в комментариях имеется ссылка на оффициальную страницу в документации myTarget по запрашиваемому ресурсу.
 - Имена методов клиента для получения ресурсов совпадают с именами ресурсов из официальной документации.

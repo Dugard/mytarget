@@ -5,14 +5,14 @@
  * Time: 19:31
  */
 
-namespace kradwhite\myTarget\api\resources\users;
+namespace dugard\myTarget\api\resources\users;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяет получить информацию о менеджерах агентства и создать нового менеджера
  * Class AgencyManagers
- * @package kradwhite\myTarget\api\methods\users
+ * @package dugard\myTarget\api\methods\users
  * @see https://target.my.com/doc/api/ru/resource/AgencyManagers
  */
 class AgencyManagers extends Resource

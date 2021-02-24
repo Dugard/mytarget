@@ -5,16 +5,16 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий управлять группой в соцсети ВКонтакте, которую пользователь добавил в доступные
  * для использования в целевых аудиториях источники данных. Группы можно использовать для настройки
  * таргетинга на их участников
  * Class RemarketingVkGroup
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/RemarketingVkGroup
  */
 class RemarketingVkGroup extends Resource

@@ -5,11 +5,11 @@
  * Time: 16:12
  */
 
-namespace kradwhite\myTarget\api\exceptions;
+namespace dugard\myTarget\api\exceptions;
 
 /**
  * Class TransportException
- * @package kradwhite\myTarget\api\exceptions
+ * @package dugard\myTarget\api\exceptions
  */
 class TransportException extends Exception
 {

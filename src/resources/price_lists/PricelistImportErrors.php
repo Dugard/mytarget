@@ -5,14 +5,14 @@
  * Time: 21:37
  */
 
-namespace kradwhite\myTarget\api\resources\price_lists;
+namespace dugard\myTarget\api\resources\price_lists;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий получить список ошибок импорта прайс-листов
  * Class PricelistImportErrors
- * @package kradwhite\myTarget\api\methods\price_lists
+ * @package dugard\myTarget\api\methods\price_lists
  * @see https://target.my.com/doc/api/ru/resource/PricelistImportErrors
  */
 class PricelistImportErrors extends Resource

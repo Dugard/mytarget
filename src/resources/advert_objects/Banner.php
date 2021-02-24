@@ -5,15 +5,15 @@
  * Time: 7:47
  */
 
-namespace kradwhite\myTarget\api\resources\advert_objects;
+namespace dugard\myTarget\api\resources\advert_objects;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий получать, обновлять и удалять рекламные объявления. Создание баннеров осуществляется
  * с помощью ресурса CampaignBanners.
  * Class Banner
- * @package kradwhite\myTarget\api\methods\advert_objects
+ * @package dugard\myTarget\api\methods\advert_objects
  * @see https://target.my.com/doc/api/ru/resource/Banner
  */
 class Banner extends Resource

@@ -5,15 +5,15 @@
  * Time: 20:32
  */
 
-namespace kradwhite\myTarget\api\resources\statistics;
+namespace dugard\myTarget\api\resources\statistics;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс возвращает базовую статистику по рекламным объектам в режиме реального времени, без учёта фильтрации
  * некорректного траффика. Значения в итоговой статистике могут значительно отличаться.
  * Class StatisticsFast
- * @package kradwhite\myTarget\api\methods\statistics
+ * @package dugard\myTarget\api\methods\statistics
  * @see https://target.my.com/adv/api-marketing/doc/stat-v2
  */
 class StatisticsFast extends Resource

@@ -5,14 +5,14 @@
  * Time: 18:18
  */
 
-namespace kradwhite\myTarget\api\resources\partner_platforms;
+namespace dugard\myTarget\api\resources\partner_platforms;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий читать/создавать рекламные площадки
  * Class GroupPads
- * @package kradwhite\myTarget\api\methods\partner_platforms
+ * @package dugard\myTarget\api\methods\partner_platforms
  * @see https://target.my.com/doc/api/ru/resource/GroupPads
  */
 class GroupPads extends Resource

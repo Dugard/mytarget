@@ -5,14 +5,14 @@
  * Time: 7:45
  */
 
-namespace kradwhite\myTarget\api\resources\advert_objects;
+namespace dugard\myTarget\api\resources\advert_objects;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий проверить валидность пикселя и узнать о факте использования пикселя аудита в кампаниях
  * Class AuditPixelCheck
- * @package kradwhite\myTarget\api\methods\advert_objects
+ * @package dugard\myTarget\api\methods\advert_objects
  * @see https://target.my.com/doc/api/ru/resource/AuditPixelCheck
  */
 class AuditPixelCheck extends Resource

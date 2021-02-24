@@ -5,14 +5,14 @@
  * Time: 21:15
  */
 
-namespace kradwhite\myTarget\api\resources\users;
+namespace dugard\myTarget\api\resources\users;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяет получить данные о количестве клиентов представительства с определенным статусом
  * Class BranchClientsCount
- * @package kradwhite\myTarget\api\methods\users
+ * @package dugard\myTarget\api\methods\users
  * @see https://target.my.com/doc/api/ru/resource/BranchClientsCount
  */
 class BranchClientsCount extends Resource

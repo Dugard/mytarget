@@ -5,14 +5,14 @@
  * Time: 9:04
  */
 
-namespace kradwhite\myTarget\api\resources\references;
+namespace dugard\myTarget\api\resources\references;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, предоставляющий информацию о производителях мобильных устройств
  * Class MobileVendors
- * @package kradwhite\myTarget\api\methods\references
+ * @package dugard\myTarget\api\methods\references
  * @see https://target.my.com/doc/api/ru/resource/MobileVendors
  */
 class MobileVendors extends Resource

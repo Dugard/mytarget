@@ -5,14 +5,14 @@
  * Time: 9:06
  */
 
-namespace kradwhite\myTarget\api\resources\references;
+namespace dugard\myTarget\api\resources\references;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий получить информацию о регионах, указанных пользователями
  * Class UserGeo
- * @package kradwhite\myTarget\api\methods\references
+ * @package dugard\myTarget\api\methods\references
  * @see https://target.my.com/doc/api/ru/resource/UserGeo
  */
 class UserGeo extends Resource

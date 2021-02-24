@@ -5,14 +5,14 @@
  * Time: 19:09
  */
 
-namespace kradwhite\myTarget\api\resources\users;
+namespace dugard\myTarget\api\resources\users;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяет получить информацию о существующих клиентах агентства и создать новых
  * Class AgencyClients
- * @package kradwhite\myTarget\api\methods\users
+ * @package dugard\myTarget\api\methods\users
  * @see https://target.my.com/doc/api/ru/resource/AgencyClients
  */
 class AgencyClients extends Resource

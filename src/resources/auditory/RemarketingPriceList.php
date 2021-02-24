@@ -5,16 +5,16 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий управлять прайс-листом динамического ремаркетинга. Такие прайс-листы позволяют автоматически
  * создавать объявления для рекламирования определенных товаров или услуг пользователям, которые ранее просматривали
  * страницы вашего сайта, посвященные этим товарам или услугам
  * Class RemarketingPriceList
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/RemarketingPricelist
  */
 class RemarketingPriceList extends Resource

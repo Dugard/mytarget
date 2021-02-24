@@ -5,14 +5,14 @@
  * Time: 8:55
  */
 
-namespace kradwhite\myTarget\api\resources\references;
+namespace dugard\myTarget\api\resources\references;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, предоставляющий информацию о мобильном приложении из Google Play
  * Class GoogleApp
- * @package kradwhite\myTarget\api\methods\references
+ * @package dugard\myTarget\api\methods\references
  * @see https://target.my.com/doc/api/ru/resource/GoogleApp
  */
 class GoogleApp extends Resource

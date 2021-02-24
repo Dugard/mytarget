@@ -5,16 +5,16 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий управлять счетчиками Top@Mail.ru, добавленных пользователем в доступные для использования
  * в целевых аудиториях источники данных. Счетчики используются для настройки таргетинга на пользователей,
  * которые посещали сайт, где он установлен
  * Class RemarketingCounters
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/RemarketingCounters
  */
 class RemarketingCounters extends Resource

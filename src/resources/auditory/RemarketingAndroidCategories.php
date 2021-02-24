@@ -5,16 +5,16 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий управлять категориями приложений Android, добавленными пользователем в источники данных
  * для целевых аудиторий. Категории можно использовать для настройки таргетинга на пользователей соответствующих
  * приложений. Список всех доступных категорий и их ID можно получить из API MobileCategory
  * Class RemarketingAndroidCategories
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/RemarketingAndroidCategories
  */
 class RemarketingAndroidCategories extends Resource

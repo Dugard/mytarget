@@ -5,14 +5,14 @@
  * Time: 9:14
  */
 
-namespace kradwhite\myTarget\api\resources\finance;
+namespace dugard\myTarget\api\resources\finance;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс позволяет получить данные о группах транзакций пользователя
  * Class TransactionGroups
- * @package kradwhite\myTarget\api\methods\finance
+ * @package dugard\myTarget\api\methods\finance
  * @see https://target.my.com/doc/api/ru/resource/TransactionGroups
  */
 class TransactionGroups extends Resource

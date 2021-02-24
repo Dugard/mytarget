@@ -5,16 +5,16 @@
  * Time: 11:21
  */
 
-namespace kradwhite\myTarget\api\resources\auditory;
+namespace dugard\myTarget\api\resources\auditory;
 
-use kradwhite\myTarget\api\resources\Resource;
+use dugard\myTarget\api\resources\Resource;
 
 /**
  * Ресурс, позволяющий управлять приложениями в соцсети Одноклассники, которые пользователь добавил в доступные
  * для использования в целевых аудиториях источники данных. Приложения можно использовать для настройки
  * таргетинга на их пользователей.
  * Class RemarketingOkApps
- * @package kradwhite\myTarget\api\methods\auditory
+ * @package dugard\myTarget\api\methods\auditory
  * @see https://target.my.com/doc/api/ru/resource/RemarketingOkApps
  */
 class RemarketingOkApps extends Resource
